@@ -1,0 +1,18 @@
+.header__lang-link {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.header__lang-link:active {
+  text-decoration: underline;
+}
+
+.header__lang-link:hover {
+  color: #f2f2f2;
+}
+
+/*.header__lang-link:focus {
+  outline: 2px solid #054292;
+  outline-offset: 3px;
+}*/
