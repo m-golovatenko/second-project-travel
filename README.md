@@ -18,7 +18,7 @@
 
 ### Проект
 
-[Ссылка на проект](https://m-golovatenko.github.io/second-project-travel/)
+[Ссылка на проект]()
 
 **Планы по доработке проектa**
 
