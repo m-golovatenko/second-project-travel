@@ -5,3 +5,10 @@
   display: flex;
   gap: 18px;
 }
+
+@media (max-width: 540px) {
+  .footer__links {
+    flex-direction: column;
+    gap: 32px;
+  }
+}

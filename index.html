@@ -13,7 +13,7 @@
 </head>
 
 <body class="root">
-    <header class="header">
+    <header class="header ">
         <a class="header__logo" href="#"></a>
         <nav>
             <ul class="header__lang-links">
@@ -24,18 +24,18 @@
     </header>
 
     <main>
-        <section class="lead">
+        <section class="page-content lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <div>
+            <figure class="lead__figure">
                 <img class="lead__image" src="./images/lead-polka.png"
                     alt="Девушка, лежащая в поезде, на фоне маршрута.">
-                <p class="lead__caption">ваша полка — верхняя</p>
-            </div>
-
+                <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+            </figure>
         </section>
 
-        <section class="intro">
+
+        <section class="intro page-content">
             <h2 class="intro__title">Чего мы там не видели?</h2>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
                 планируют
@@ -51,15 +51,18 @@
                 вашего
                 отпуска.</p>
             <ul class="intro__list">
-                <li class="intro__list-item">Часовых поясов 11</li>
-                <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-                <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-                <li class="intro__list-item">Природных заповедников 105</li>
-                <li class="intro__list-item">Аэропортов 241</li>
+                <li class="intro__list-item">Часовых поясов <span class="intro__list-item_normal">11</span></li>
+                <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span
+                        class="intro__list-item_normal">12</span></li>
+                <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span
+                        class="intro__list-item_normal">16</span></li>
+                <li class="intro__list-item">Природных заповедников <span class="intro__list-item_normal">105</span>
+                </li>
+                <li class="intro__list-item">Аэропортов <span class="intro__list-item_normal">241</span></li>
             </ul>
         </section>
 
-        <section class="photo-grid">
+        <section class="photo-grid ">
             <img src="./images/photo-grid-train.png" alt="" class="photo-grid__item">
             <img src="./images/photo-grid-atharva-tulsi.png" alt="" class="photo-grid__item">
             <img src="./images/photo-grid-tuman.png" alt="" class="photo-grid__item">
@@ -74,7 +77,7 @@
             <img src="./images/photo-grid-ergaki.png" alt="" class="photo-grid__item">
         </section>
 
-        <section class="places">
+        <section class="page-content places">
             <div class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
@@ -96,7 +99,7 @@
                         спокойствие природы и запах стального, прохладного моря.</p>
                 </div>
             </div>
-            <div class="place">
+            <div class=" place">
                 <h2 class="place__title">Кольский</h2>
                 <div class="place__website">
                     <h3 class="place__url-heading">URL</h3>
@@ -184,8 +187,7 @@
             <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"
                 rel="nofollow noreferrer">
                 <h2 class="cover__title">До Байкала «на собаках»</h2>
-                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
-                    на
+                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
                     электричках.</p>
             </a>
         </section>

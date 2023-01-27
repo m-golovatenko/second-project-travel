@@ -6,4 +6,17 @@
   font-weight: 400;
   margin-top: 8px;
   letter-spacing: 1.5px;
+  margin-bottom: 92px;
+}
+
+@media (max-width: 768px) {
+  .lead__caption {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__caption {
+    margin-bottom: 64px;
+  }
 }

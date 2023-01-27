@@ -1,0 +1,19 @@
+.page-content {
+  margin: 0 auto;
+  max-width: 984px;
+  padding: 0 48px;
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    max-width: 100%;
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .page-content {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+}

@@ -6,15 +6,14 @@
 }
 
 .link:active {
-  border-bottom: 1.5px solid #fff;
+  border-bottom: 1.7px solid #fff;
 }
 
 .link:hover {
-  color: #0a5fce;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .link:focus {
-  outline: 2px solid #054292;
+  outline: 2px solid fff;
   outline-offset: 3px;
 }

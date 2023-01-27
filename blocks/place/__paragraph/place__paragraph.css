@@ -3,9 +3,29 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 163%;
+  margin-bottom: 27px;
+}
+
+.place__paragraph:nth-child(n + 1) {
   margin-bottom: 26px;
 }
 
 .place__paragraph:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .place__paragraph:nth-child(n + 1) {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 650px) {
+  .place__paragraph {
+    padding: 0 16px;
+  }
 }

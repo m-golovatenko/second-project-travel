@@ -1,5 +1,33 @@
 .place {
   display: grid;
-  grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
+  grid-template-columns: 460px 1fr;
   gap: 48px 40px;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    gap: 48px 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media (max-width: 650px) {
+  .place {
+    grid-template-columns: 300px 1fr;
+    gap: 32pxpx;
+  }
+}
+
+@media (max-width: 540px) {
+  .place {
+    grid-template-columns: 100%;
+    gap: 32px;
+  }
 }

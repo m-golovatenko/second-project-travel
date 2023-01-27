@@ -1,0 +1,12 @@
+.place__link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 122%;
+}
+
+@media (max-width: 768px) {
+  .place__link {
+    font-size: 18px;
+    line-height: 122%;
+  }
+}
