@@ -4,3 +4,10 @@
   align-items: center;
   max-width: calc(100% - 96px);
 }
+
+@media (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+    padding: 0;
+  }
+}

@@ -17,5 +17,6 @@
 @media (max-width: 540px) {
   .header {
     padding: 0 16px;
+    margin-top: 16px;
   }
 }

@@ -47,5 +47,6 @@
   .cover__background {
     min-height: 200px;
     margin-bottom: 64px;
+    gap: 16px;
   }
 }

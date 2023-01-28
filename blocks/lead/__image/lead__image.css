@@ -1,11 +1,11 @@
 .lead__image {
   margin: 0 auto;
   width: 100%;
+  display: block;
 }
 
 @media (max-width: 768px) {
   .lead__image {
-    width: calc(100% + 48px);
-    margin-left: -24px;
+    width: 100%;
   }
 }

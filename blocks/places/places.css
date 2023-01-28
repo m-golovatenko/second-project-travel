@@ -15,15 +15,20 @@
 @media (max-width: 768px) {
   .places {
     max-width: calc(100% - 48px);
-    gap: 72px;
+    gap: 73px;
+    margin-bottom: 90px;
+  }
+
+  .places .place:first-of-type .place__title {
+    letter-spacing: 1px;
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   .places {
     max-width: 100%;
     padding: 0;
     gap: 50px;
-    margin-bottom: 90px;
+    margin-bottom: 66px;
   }
 }

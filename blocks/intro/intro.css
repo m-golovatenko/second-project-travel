@@ -3,3 +3,15 @@
   flex-direction: column;
   margin-bottom: 92px;
 }
+
+@media (max-width: 768px) {
+  .intro {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 540px) {
+  .intro {
+    margin-bottom: 64px;
+  }
+}

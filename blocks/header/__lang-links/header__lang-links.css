@@ -6,11 +6,19 @@
   gap: 18px;
   font-size: 24px;
   line-height: 117%;
+  margin-bottom: 8px;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 1024px) {
+  .header__lang-links {
+    margin-bottom: 6px;
+  }
+}
+
+@media (max-width: 600px) {
   .header__lang-links {
     font-size: 18px;
     line-height: 111%;
+    margin-bottom: 8px;
   }
 }

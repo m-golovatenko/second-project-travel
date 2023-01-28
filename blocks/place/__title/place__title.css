@@ -12,7 +12,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   .place__title {
     padding: 0 16px;
   }

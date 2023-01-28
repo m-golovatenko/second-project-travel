@@ -9,6 +9,18 @@
   margin-top: 56px;
 }
 
+@media (max-width: 1024px) {
+  .lead__title {
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__title {
+    padding: 0 24px;
+  }
+}
+
 @media (max-width: 690px) {
   .lead__title {
     font-size: 64px;
@@ -20,5 +32,6 @@
     font-size: 40px;
     line-height: 110%;
     margin-bottom: 16px;
+    padding: 0 16px;
   }
 }

@@ -2,7 +2,7 @@
   margin: 0;
   font-size: 16px;
   font-weight: 400;
-  line-height: 160%;
+  line-height: 163%;
   margin-bottom: 33px;
   max-width: 69.8%;
 }
@@ -16,6 +16,11 @@
 @media (max-width: 768px) {
   .intro__text {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .intro__text {
     margin-bottom: 34px;
   }
 }

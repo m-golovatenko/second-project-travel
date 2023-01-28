@@ -7,16 +7,19 @@
   margin-top: 8px;
   letter-spacing: 1.5px;
   margin-bottom: 92px;
+  padding: 0;
 }
 
 @media (max-width: 768px) {
   .lead__caption {
     margin-bottom: 88px;
+    padding: 0 24px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 540px) {
   .lead__caption {
     margin-bottom: 64px;
+    padding: 0 16px;
   }
 }
