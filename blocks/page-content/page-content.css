@@ -11,9 +11,8 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 540px) {
   .page-content {
-    max-width: 100%;
     padding: 0 16px;
   }
 }
